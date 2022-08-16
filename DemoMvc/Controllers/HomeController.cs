@@ -6,8 +6,8 @@ namespace DemoMvc.Controllers
     {
         public IActionResult Index()
         {
-            string name = "Tom";
-            int age = 30;
+            string name = "Raghav";
+            int age = 22;
             ViewBag.Name = name;
             ViewData["Age"] = age;
             TempData["name"] = name;

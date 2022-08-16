@@ -1,0 +1,22 @@
+﻿body {
+    margin: 40px;
+    background-color: aquamarine;
+    height: 600px;
+    border: 5px solid red;
+}
+
+h1{
+    background-color: antiquewhite;
+    color: darkblue;
+    text-align: center;
+}
+table{
+    width: 100%;
+}
+tr:hover{
+    color: gold;
+    background-color: coral;
+}
+th{
+    font-weight: bolder;
+}

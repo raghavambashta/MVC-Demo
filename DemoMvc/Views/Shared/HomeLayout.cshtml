@@ -1,13 +1,12 @@
-﻿<!DOCTYPE html>
+﻿@{
+    Layout = "~/Views/Shared/MainLayout.cshtml";
+}
+<nav style="text-align:center">
+    @Html.ActionLink("Index","Index","Home")&nbsp;&nbsp;&nbsp;&nbsp;
+    @Html.ActionLink("About","About","Home")&nbsp;&nbsp;&nbsp;&nbsp;
+    @Html.ActionLink("Contact","Contact","Home")&nbsp;&nbsp;&nbsp;&nbsp;
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
-</head>
-<body>
-    <div>
-        @RenderBody()
-    </div>
-</body>
-</html>
+</nav>
+<div style="background-color:bisque">
+    @RenderBody()
+</div>
